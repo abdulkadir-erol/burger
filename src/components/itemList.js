@@ -2,7 +2,7 @@ import React from "react";
 
 const ItemList = ({ mockData, addItem, deleteItem, hamburger, total }) => {
   return (
-    <table>
+    <table class="styled-table">
       <thead>
         <tr>
           <td>Name</td>
